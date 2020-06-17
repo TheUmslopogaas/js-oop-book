@@ -1,0 +1,86 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+*:focus {outline: none}
+body {
+	background-color: #e6e6e6;
+	font-family: Montserrat, Arial, Helvetica, sans-serif;
+	color: #1f1f1f;
+}
+.full-width {
+	display: inline-block;
+	width: 100%;
+	margin: 10px 0;
+}
+.text-center {
+	text-align: center;
+}
+.wrapper {
+	width: 70%;
+	margin: 0 auto;
+}
+.wrapper h1 {
+	font-size: 4.5rem;
+	font-weight: 300;
+}
+.alerts {
+	position: relative;
+	background-color: Chocolate;
+	width: 100%;
+	text-align: center;
+}
+.single-alert {
+	padding: 10px 0;
+	position: absolute;
+	width: 100%;
+	margin-top: -15px;
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.3s;
+}
+.alerts .success-alert {background-color: LimeGreen;}
+.alerts .error-alert {background-color: Tomato;}
+.alerts .remove-alert {background-color: #deb881;}
+.alerts .show {
+	margin-top: 0;
+	opacity: 1;
+	visibility: visible;
+	transition: 0.3s;
+}
+.book-list {margin-top: 50px;}
+label {font-weight: 600; color: rgb(0,0,0,0.75)}
+input {
+	background-color: none;
+	border: none;
+	border-bottom: 3px solid #ccc;
+	padding: 20px;
+	box-sizing: border-box;
+	/* border-radius: 5px; */
+}
+input[type=submit] {
+	border: none;
+	font-weight: bold;
+	background-color: #424242;
+	color: white;
+	cursor: pointer;
+}
+.table {
+	width: 100%;
+	box-sizing: border-box;
+	margin-bottom: 1.5rem;
+}
+th:first-child, td:first-child {
+	padding-left: 0;
+}
+th, td {
+  padding: 10px 15px;
+  text-align: left;
+  border-bottom: 1px solid #dbdbdb;
+}
+.delete {
+	color: red;
+	text-align: center;
+
+}
+.delete span {
+	cursor: pointer;
+	padding: 5px 10px;
+}

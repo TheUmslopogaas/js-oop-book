@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS OOP CRUD Project</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="wrapper">
+		<h1 class="text-center">Add Book</h1>
+		<div class="alerts">
+			<div class="success-alert single-alert">Added a Book successfully</div>
+			<div class="error-alert single-alert">Please fill all the field</div>
+			<div class="remove-alert single-alert">A book has been removed</div>
+		</div>
+		<form class="book-list">
+			<div class="form-element">
+				<label for="title">Title</label>
+				<input class="full-width" id="title" type="text" placeholder="Enter Book Name">
+			</div>
+			<div class="form-element">
+				<label for="author">Author</label>
+				<input class="full-width" id="author"type="text" placeholder="Enter Writer Name">
+			</div>
+			<div class="form-element">
+				<label for="isbn">ISBN</label>
+				<input class="full-width" id="isbn" ptype="text" placeholder="Enter ISBN">
+			</div>
+			<div class="form-element">
+				<input class="full-width" type="submit" value="Submit" id="submit">
+			</div>
+		</form>
+		 <table class="table">  <!--class="table full-width" -->
+			<thead>
+				 <tr class="table-header">  <!-- -->
+		      <th>Title</th>
+		      <th>Author</th>
+		      <th>ISBN</th>
+		      <th>Clear</th>
+				</tr>
+			</thead>
+			<tbody id="table-body"></tbody>
+		</table>
+	</div>
+	<script src="oopjs.js"></script>
+
+</body>
+</html>
