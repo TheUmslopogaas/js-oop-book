@@ -78,7 +78,7 @@ singleBookRow.addEventListener("click", function (e){
 		e.target.parentElement.parentElement.remove();
 		ui.removeAlert();
 	} else {
-		console.log("whytf are you clicking randomly nigga?");
+		console.log("Click on the cross button bro.");
 	}
 	e.preventDefault();
 })
