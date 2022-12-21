@@ -1,4 +1,4 @@
-# js-oop-book
+# Object Oriented JavaScript Practice Project
 Created a Javascript CRUD Book adding simple web interface. Will add localstorage feature as well later on.
 
 # How it works
